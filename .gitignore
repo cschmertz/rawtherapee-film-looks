@@ -1,4 +1,6 @@
 .DS_Store
+__pycache__/
+*.py[cod]
 
 # machine-specific re-signed RawTherapee CLI (see README to recreate)
 bin/rtcli

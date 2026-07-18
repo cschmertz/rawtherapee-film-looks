@@ -17,7 +17,7 @@ Method=Coloropp
 
 [Film Simulation]
 Enabled=true
-ClutFilename=/Users/conorschmertz/Desktop/rawtherapee-presets/cluts/Kodak Kodachrome 200.png
+ClutFilename=cluts/Kodak Kodachrome 200.png
 Strength=100
 
 [Luminance Curve]

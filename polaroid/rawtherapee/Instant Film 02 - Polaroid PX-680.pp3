@@ -17,7 +17,7 @@ Method=Coloropp
 
 [Film Simulation]
 Enabled=true
-ClutFilename=/Users/conorschmertz/Desktop/rawtherapee-presets/cluts/Polaroid PX-680 3.png
+ClutFilename=cluts/Polaroid PX-680 3.png
 Strength=100
 
 [Luminance Curve]

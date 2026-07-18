@@ -1,26 +1,28 @@
 # CLUT credits & licenses
 
-The HaldCLUT PNGs in this folder are vendored from the community
-"hald-clut" collection (https://github.com/cedeber/hald-clut). Per-source
-licensing:
+The committed HaldCLUT PNGs in this folder were obtained from the community
+`cedeber/hald-clut` mirror. The mirror labels its repository GPL-3.0; the
+official RawTherapee collection page provides the archive and credits but does
+not state a separate per-file license. Preserve this provenance and review the
+upstream terms before publishing or redistributing this preset pack.
 
 ## RawTherapee Film Simulation Collection (2015-09-20)
 
 Used by the `portra`, `kodachrome`, `polaroid`, and `bw` looks
 (all Kodak/Polaroid/Lomography/Ilford CLUTs here).
 
-- License: **CC BY-SA 4.0**
 - Credits: Pat David, Pavlov Dmitry, Michael Ezra
-- More info: http://rawpedia.rawtherapee.com/Film_Simulation
+- Official collection page: https://rawpedia.rawtherapee.com/Film_Simulation
+- Source mirror: https://github.com/cedeber/hald-clut (GPL-3.0 repository)
 
 ## Fuji X-Trans III film simulation profiles
 
 Used by the `fuji` look (all "Fuji XTrans III - *" CLUTs).
 
 - Author: Stuart Sowerby — https://blog.sowerby.me/fuji-film-simulation-profiles/
-- Distributed free for use; no explicit license text. If this preset pack
-  is ever redistributed publicly, obtain permission or link to the
-  author's download instead of bundling these files.
+- The download page does not provide explicit redistribution terms. These four
+  files are intentionally excluded from git; obtain them from the author and do
+  not bundle them without permission.
 
 ## Trademarks
 
@@ -28,8 +30,7 @@ Film stock names (Kodak, Portra, Fujifilm, Ilford, etc.) appear for
 identification only; the CLUT authors and this project are not affiliated
 with or endorsed by the trademark owners.
 
-## Note on output images
+## Scope
 
-These licenses cover redistribution of the CLUT files themselves.
-Photographs processed through them are not derivative works of the CLUTs
-and carry no license obligations.
+This file records provenance; it is not legal advice and makes no categorical
+claim about downstream-image or redistribution obligations.

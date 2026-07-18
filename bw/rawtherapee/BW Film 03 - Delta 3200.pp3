@@ -17,7 +17,7 @@ Method=Coloropp
 
 [Film Simulation]
 Enabled=true
-ClutFilename=/Users/conorschmertz/Desktop/rawtherapee-presets/cluts/Ilford Delta 3200 2.png
+ClutFilename=cluts/Ilford Delta 3200 2.png
 Strength=100
 
 [LensProfile]

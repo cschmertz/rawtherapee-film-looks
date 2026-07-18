@@ -1,0 +1,5 @@
+# Download-only assets which are intentionally excluded from the repository.
+Fuji XTrans III - Classic Chrome.png
+Fuji XTrans III - Velvia.png
+Fuji XTrans III - Astia.png
+Fuji XTrans III - Acros.png
