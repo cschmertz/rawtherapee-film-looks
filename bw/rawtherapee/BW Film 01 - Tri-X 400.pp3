@@ -17,7 +17,7 @@ Method=Coloropp
 
 [Film Simulation]
 Enabled=true
-ClutFilename=/Users/conorschmertz/Desktop/rawtherapee-presets/cluts/Kodak TRI-X 400 2.png
+ClutFilename=cluts/Kodak TRI-X 400 2.png
 Strength=100
 
 [LensProfile]

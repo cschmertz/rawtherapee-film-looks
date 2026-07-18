@@ -17,7 +17,7 @@ Method=Coloropp
 
 [Film Simulation]
 Enabled=true
-ClutFilename=/Users/conorschmertz/Desktop/rawtherapee-presets/cluts/Fuji XTrans III - Astia.png
+ClutFilename=cluts/Fuji XTrans III - Astia.png
 Strength=100
 
 [Luminance Curve]

@@ -17,7 +17,7 @@ Method=Coloropp
 
 [Film Simulation]
 Enabled=true
-ClutFilename=/Users/conorschmertz/Desktop/rawtherapee-presets/cluts/Kodak Portra 800 2.png
+ClutFilename=cluts/Kodak Portra 800 2.png
 Strength=100
 
 [Luminance Curve]

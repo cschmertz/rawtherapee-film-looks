@@ -17,7 +17,7 @@ Method=Coloropp
 
 [Film Simulation]
 Enabled=true
-ClutFilename=/Users/conorschmertz/Desktop/rawtherapee-presets/cluts/Ilford HP5 Plus 400.png
+ClutFilename=cluts/Ilford HP5 Plus 400.png
 Strength=100
 
 [LensProfile]
