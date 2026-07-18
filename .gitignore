@@ -1,0 +1,8 @@
+.DS_Store
+
+# machine-specific re-signed RawTherapee CLI (see README to recreate)
+bin/rtcli
+
+# free-to-use but not redistributable — download from
+# https://blog.sowerby.me/fuji-film-simulation-profiles/ (see README)
+cluts/Fuji XTrans III*.png
