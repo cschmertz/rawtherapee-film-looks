@@ -33,13 +33,21 @@ vendored in `cluts/`):
 - `polaroid` — `01` 669 · `02` PX-680 · `03` Lomo X-Pro (instant / lo-fi)
 - `bw` — `01` Tri-X 400 · `02` HP5 Plus · `03` Delta 3200 (classic B&W)
 
+Curve-based (like boardwalk):
+- `cinema` — `01` Soft · `02` Classic · `03` Deep (dark cinematic teal/sage
+  with warm amber accents, matte blacks, film grain — moody museum /
+  available-light aesthetic)
+- `postcard` — `01` Cream · `02` Sunfade · `03` Candy (bright vintage pastel:
+  cream highlights, flat gentle contrast, milky sage skies, salmon/mustard
+  accents — faded-60s-postcard, inspired by a certain symmetrical filmmaker)
+
 ## Layout
 
 ```
 bin/            shared pipeline (rtcli, film_fx.py, web_export.py,
                 contact_sheet.py, process.sh)
 cluts/              vendored HaldCLUT PNGs used by the looks
-boardwalk/, fuji/, portra/, kodachrome/, polaroid/, bw/   one folder per look:
+boardwalk/, cinema/, postcard/, fuji/, portra/, kodachrome/, polaroid/, bw/   one folder per look:
   rawtherapee/  the .pp3 color grades (also loadable in RawTherapee GUI:
                 Processing Profiles → load from file)
   fx.conf       per-variant grain strength/size + halation dose
