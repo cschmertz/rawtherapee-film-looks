@@ -46,10 +46,20 @@ Sources:
 - [Mastin Labs Night & Day flash and strobe tools](https://mastinlabs.com/blogs/photoism/mastin-labs-night-and-day-lightroom-presets-pack)
 - [Adobe's portrait and subject-oriented preset model](https://helpx.adobe.com/lightroom/mobile/work-with-presets/apply-presets.html)
 
-## Cinema: Bleach Bypass
+## Bleach Bypass
 
-High contrast, low saturation, hard shadow and highlight tonality, cool
-silver-gray neutrals, and minimal warm halation.
+These curve-based profiles reproduce the progressively stronger contrast,
+desaturation, and visible silver associated with partial and full
+bleach-bypass processing without depending on a third-party CLUT:
+
+- **Half:** partial bypass with moderate contrast and enough retained color for
+  general use.
+- **Silver:** the classic cold, low-saturation silver-retention treatment.
+- **Grit:** hard contrast, near-monochrome color, an olive bias, and coarse
+  grain as a deliberately more aggressive creative extension.
+
+The original `cinema/04` profile remains available for compatibility and is
+closest to **Silver**.
 
 Source:
 

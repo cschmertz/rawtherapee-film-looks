@@ -23,6 +23,24 @@ class PresetLibraryTests(unittest.TestCase):
         self.assertLessEqual(len(warnings), 4)
         self.assertEqual(len(load_look(ROOT, "boardwalk").presets), 4)
 
+    def test_bleach_bypass_is_a_curve_based_strength_progression(self) -> None:
+        look = load_look(ROOT, "bleach-bypass")
+        self.assertEqual(
+            [preset.label for preset in look.presets.values()],
+            ["Half", "Silver", "Grit"],
+        )
+        self.assertTrue(
+            all(preset.clut_name is None for preset in look.presets.values())
+        )
+        self.assertLess(
+            look.effects["01"].grain_strength,
+            look.effects["02"].grain_strength,
+        )
+        self.assertLess(
+            look.effects["02"].grain_strength,
+            look.effects["03"].grain_strength,
+        )
+
     def test_materializes_clut_profile_without_changing_source(self) -> None:
         look = load_look(ROOT, "portra")
         preset = look.presets["01"]
