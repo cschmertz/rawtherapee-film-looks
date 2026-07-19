@@ -44,17 +44,27 @@ Simulation Collection plus separately downloaded Fuji X-Trans samples):
 Curve-based (like boardwalk):
 - `cinema` — `01` Soft · `02` Classic · `03` Deep (dark cinematic teal/sage
   with warm amber accents, matte blacks, film grain — moody museum /
-  available-light aesthetic)
+  available-light aesthetic) · `04` Bleach Bypass (high contrast, low color,
+  silver-gray neutrals, hard grain)
 - `postcard` — `01` Cream · `02` Sunfade · `03` Candy (bright vintage pastel:
   cream highlights, flat gentle contrast, milky sage skies, salmon/mustard
   accents — faded-60s-postcard, inspired by a certain symmetrical filmmaker)
+- `night` — `01` Tungsten · `02` Neon · `03` Sodium (mixed-light night color,
+  protected practicals, stronger grain and halation)
+- `editorial` — `01` Clean · `02` Warm · `03` Cool (restrained fashion and
+  portrait finishing with protected skin tones)
+- `flash` — `01` Disposable · `02` Afterparty · `03` Gloss (grades for images
+  made with direct flash; these do not synthesize flash lighting)
+- `landscape` — `01` Golden · `02` Alpine · `03` Forest (season- and
+  environment-oriented color with controlled highlights)
 
 ## Layout
 
 ```
 bin/            shared pipeline, validation, setup checks, and GUI export
 cluts/              vendored HaldCLUT PNGs used by the looks
-boardwalk/, cinema/, postcard/, fuji/, portra/, kodachrome/, polaroid/, bw/   one folder per look:
+boardwalk/, cinema/, postcard/, night/, editorial/, flash/, landscape/,
+fuji/, portra/, kodachrome/, polaroid/, bw/   one folder per look:
   rawtherapee/  portable source .pp3 color grades
   fx.conf       per-variant grain strength/size + halation dose
 ```
@@ -124,3 +134,5 @@ Curve-only profiles are also directly loadable from their source folders.
 - Run the automated checks with `python3 -m unittest discover -s tests -v`.
 - Requires: RawTherapee 5.12, Python 3.8+, numpy, and Pillow.
 - See `cluts/CREDITS.md` before redistributing the CLUT files.
+- See `docs/LOOK-RESEARCH.md` for the visual targets, source material, and
+  current calibration limits of the original curve-based looks.

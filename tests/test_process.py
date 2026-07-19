@@ -109,8 +109,11 @@ class ProcessTests(unittest.TestCase):
         result = self.run_process(str(photos), "cinema", "all", "--web")
         self.assertEqual(result.returncode, 0, result.stderr)
         output = photos / "renders" / "cinema"
-        self.assertEqual(len(list(output.glob("photo_*.jpg"))), 3)
-        self.assertEqual(len(list((output / "web").glob("photo_*.jpg"))), 3)
+        variant_count = len(list((ROOT / "cinema" / "rawtherapee").glob("*.pp3")))
+        self.assertEqual(len(list(output.glob("photo_*.jpg"))), variant_count)
+        self.assertEqual(
+            len(list((output / "web").glob("photo_*.jpg"))), variant_count
+        )
         self.assertTrue((output / "contact" / "photo_contact.jpg").is_file())
 
     def test_clut_profile_is_materialized_before_rawtherapee(self) -> None:
