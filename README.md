@@ -1,4 +1,4 @@
-# rawtherapee-presets — film-look pipeline for Nikon raws
+# rawtherapee-film-looks — film-look pipeline for Nikon raws
 
 Each look is a folder holding its color grade and effect doses. The shared
 pipeline turns NEFs into finished JPEGs through a lossless intermediate:
