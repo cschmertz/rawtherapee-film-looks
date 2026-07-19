@@ -44,8 +44,8 @@ Simulation Collection plus separately downloaded Fuji X-Trans samples):
 Curve-based (like boardwalk):
 - `cinema` — `01` Soft · `02` Classic · `03` Deep (dark cinematic teal/sage
   with warm amber accents, matte blacks, film grain — moody museum /
-  available-light aesthetic) · `04` Bleach Bypass (high contrast, low color,
-  silver-gray neutrals, hard grain)
+  available-light aesthetic) · `04` Bleach Bypass (retained for compatibility;
+  use the standalone family below for a choice of intensities)
 - `postcard` — `01` Cream · `02` Sunfade · `03` Candy (bright vintage pastel:
   cream highlights, flat gentle contrast, milky sage skies, salmon/mustard
   accents — faded-60s-postcard, inspired by a certain symmetrical filmmaker)
@@ -55,6 +55,8 @@ Curve-based (like boardwalk):
   portrait finishing with protected skin tones)
 - `flash` — `01` Disposable · `02` Afterparty · `03` Gloss (grades for images
   made with direct flash; these do not synthesize flash lighting)
+- `bleach-bypass` — `01` Half · `02` Silver · `03` Grit (progressively stronger
+  silver-retention treatments, from restrained color to hard olive near-mono)
 - `landscape` — `01` Golden · `02` Alpine · `03` Forest (season- and
   environment-oriented color with controlled highlights)
 
@@ -63,7 +65,7 @@ Curve-based (like boardwalk):
 ```
 bin/            shared pipeline, validation, setup checks, and GUI export
 cluts/              vendored HaldCLUT PNGs used by the looks
-boardwalk/, cinema/, postcard/, night/, editorial/, flash/, landscape/,
+boardwalk/, cinema/, postcard/, night/, editorial/, flash/, bleach-bypass/, landscape/,
 fuji/, portra/, kodachrome/, polaroid/, bw/   one folder per look:
   rawtherapee/  portable source .pp3 color grades
   fx.conf       per-variant grain strength/size + halation dose
